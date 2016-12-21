@@ -13,3 +13,7 @@ Whenever you have done some work, more than changing a comma, but less than dele
 ## Think in Batch Mode
 
 Although you may build a command file interactively using in [using debugging tools](https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio) or simply using the [debug](https://stat.ethz.ch/R-manual/R-devel/library/base/html/debug.html) mode for functions, **all files should run from start to finish in a fresh directory**. You can do this by never saving .RData files. And by running all command files (including .Rmd and .Rnw files) from scratch at the command line.
+
+## Use a Text Editor for text
+
+If you are writing .Rmd or .R or .Rnw files, RStudio is fine. If you are not, then we recommend vim, emacs, or atom.
